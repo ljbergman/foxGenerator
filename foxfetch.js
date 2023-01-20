@@ -19,8 +19,12 @@ button.addEventListener('click', function (event) {
     getFox();
 });
 // Forest sounds
-var audioSound = new Audio('forest.wav');
+var audioSound = new Audio('forest.mp3');
+var audioSound2 = new Audio('babyfox.mp3');
 function playAudio() {
     audioSound.pause();
     audioSound.play();
+    audioSound2.volume = 0.1;
+    audioSound2.pause();
+    audioSound2.play();
 }
