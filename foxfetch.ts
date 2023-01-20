@@ -1,5 +1,4 @@
-let audioForest = new Audio('forest.mp3');
-audioForest.play();
+
 
 
 let imgField= document.querySelector("#generatedFox") as HTMLImageElement;
@@ -26,7 +25,14 @@ button.addEventListener('click', function(event) {
     
     event.preventDefault();   
     imgField.src = 'loading.gif';
+    playAudio();
     getFox(); 
                 
 });
 
+// Forest sounds
+var audioSound = new Audio('forest.wav');
+function playAudio() {
+    audioSound.pause();
+    audioSound.play();
+}
