@@ -1,3 +1,7 @@
+let audioForest = new Audio('forest.mp3');
+audioForest.play();
+
+
 let imgField= document.querySelector("#generatedFox") as HTMLImageElement;
 const button = document.querySelector("#button") as HTMLButtonElement;
 

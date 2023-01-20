@@ -1,4 +1,6 @@
 "use strict";
+let audioForest = new Audio('forest.mp3');
+audioForest.play();
 let imgField = document.querySelector("#generatedFox");
 const button = document.querySelector("#button");
 function getFox() {
