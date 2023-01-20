@@ -16,6 +16,7 @@ function getFox():void {
     }).then(data => {
         
         imgField.src = data.image;
+        playAudio();
                
     });
 
@@ -25,7 +26,7 @@ button.addEventListener('click', function(event) {
     
     event.preventDefault();   
     imgField.src = 'loading.gif';
-    playAudio();
+    
     getFox(); 
                 
 });

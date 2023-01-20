@@ -10,12 +10,12 @@ function getFox() {
         return response.json();
     }).then(data => {
         imgField.src = data.image;
+        playAudio();
     });
 }
 button.addEventListener('click', function (event) {
     event.preventDefault();
     imgField.src = 'loading.gif';
-    playAudio();
     getFox();
 });
 // Forest sounds
