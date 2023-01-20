@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: Foxy;
+    font-weight: bold;
+    src: url("Foxy.ttf") format("truetype");
+}
+
+ 
+
+body {
+
+    margin: auto;
+    background: url("background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden; 
+    
+
+}
+
+.title {
+
+    margin-left: 5px; 
+    font-family: Foxy, arial; 
+    font-size: 58px;
+
+}
+
+.button {
+     
+    font-family: arial;
+    font-size: 32px;
+    background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49  51%, #3CA55C  100%);
+    margin: 10px;
+    padding: 18px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 334px;
+
+}
+
+.button:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+
+
+
+.contentDiv {
+
+    text-align: center; 
+    margin: 5px; 
+    width: 320px; 
+    border: 0px solid #bbb; 
+    border-radius: 12px; 
+    font-family: arial; 
+    font-size: 18px; 
+    padding: 10px;
+    background-color: rgba(255,255,255,0.0);
+
+}
+
+
+.image {
+
+    width: 300px;
+
+}
+
+
+.flex-container {
+
+    display: flex;
+    width: 100%;
+
+    justify-content: center; 
+    flex-wrap: nowrap;   
+    flex-direction: column; 
+    align-items: center;
+    flex: 0 1 auto; 
+    
+}
+
+.field-container {
+
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 20px;
+    width: 358px;
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 3px 6px #D79B4C;
+
+}
+
