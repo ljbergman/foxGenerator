@@ -22,6 +22,7 @@ button.addEventListener('click', function (event) {
 var audioSound = new Audio('forest.mp3');
 var audioSound2 = new Audio('babyfox.mp3');
 function playAudio() {
+    audioSound.volume = 0.5;
     audioSound.pause();
     audioSound.play();
     audioSound2.volume = 0.1;
